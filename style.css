@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.total{
+    display: flex;
+    height: 100vh;
+}
+.chanel{
+    display: flex;
+    margin:auto;
+
+}
+
+.chanel img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.perfume{
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2rem;
+}
+
+
+.essence{
+    Font-size: 2rem;
+    font-style: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: solid;
+}
+
+.fouty{
+    display: flex;
+    align-items: center ;
+}
+
+.cart{
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    border-radius: 4px;
+    width: 140px;
+    height: 1.7rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.cart button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color:#fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+}
+
+.nine{
+    color: hsl(158, 36%, 37%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.six{
+    font-size: 10px;
+    margin-left: 2rem;
+}
+ 
+span{
+    width: 17px;
+    height: 20px;
+    
+}
+
